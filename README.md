@@ -42,6 +42,7 @@ Implemented with Next.js for the user interface, Three.js for rendering 3D eleme
 - [shadcn/ui](https://ui.shadcn.com)
 - [Aceternity UI](https://ui.aceternity.com)
 - [next-themes](https://www.npmjs.com/package/next-themes)
+- [react-icons](https://www.npmjs.com/package/react-icons)
 
 ## <a name="features">🔋 Features</a>
 
