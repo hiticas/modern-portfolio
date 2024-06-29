@@ -31,7 +31,7 @@ const Hero = () => {
             words="Turning Ideas into Effortless User Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Mike, a Web Developer based in Romania.
+            Hi, I&apos;m Mike, a Web Developer based in Romania.
           </p>
           <a href="#about">
             <MagicButton
