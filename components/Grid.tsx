@@ -1,5 +1,5 @@
-import { gridItems } from "../data/index";
-import { BentoGrid, BentoGridItem } from "../ui/BentoGrid";
+import { gridItems } from "./data/index";
+import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
 const Grid = () => {
   return (
