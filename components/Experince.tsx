@@ -24,16 +24,28 @@ const Experience = () => {
             }}
             className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"
           >
-            <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
+            <div className="flex w-full lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
                 className="lg:w-32 md:w-20 w-16"
               />
-              <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold">
-                  {card.title}
-                </h1>
+              <div className="w-[75%] lg:ms-5">
+                <div>
+                  <h1 className="text-start text-xl md:text-3xl font-bold flex gap-6 items-end mb-4">
+                    {card.company}{" "}
+                    {card.icon && (
+                      <img
+                        src={card.icon}
+                        alt={card.icon}
+                        className="w-16 w-16 rounded-full border-white border"
+                      />
+                    )}
+                  </h1>
+                  <h1 className="text-start text-xl md:text-2xl font-bold flex gap-6 items-center">
+                    {card.title}
+                  </h1>
+                </div>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>

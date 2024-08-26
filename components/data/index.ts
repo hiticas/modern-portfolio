@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
-  { name: "Contact", link: "#contact" },
+  { name: "Skills", link: "#skills" },
+  { name: "Projects", link: "#projects" },
 ];
 
 export const gridItems = [
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently full-time job React Js Developer",
+    title: "Currently Freelance React Js Developer",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -140,64 +140,91 @@ export const projects = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "React.js",
+    img: "/react.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "TypeScript",
+    img: "/typescript.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "JavaScript",
+    img: "/javascript.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "Next.js",
+    img: "/next.jpg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Wordpress",
+    img: "/wordpress.svg",
+  },
+  {
+    id: 6,
+    name: "TailwindCSS",
+    img: "/tailwindcss.svg",
+  },
+  {
+    id: 7,
+    name: "HTML5",
+    img: "/html-5.svg",
+  },
+  {
+    id: 8,
+    name: "CSS3",
+    img: "/css3.svg",
+  },
+  {
+    id: 9,
+    name: "SCSS",
+    img: "/scss.svg",
+  },
+  {
+    id: 10,
+    name: "GitHub",
+    img: "/github.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    title: "Web Dev Projects",
+    desc: "Developed and deployed projects on Upwork and LinkedIn using React.js, TypeScript and WordPress.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+    company: "Freelance",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Frontend Developer",
+    desc: "Develop a high-performance web application for the travel industry using React.js, TypeScript, and Redux. Implement an efficient search functionality and integrated flight offers and journey displays.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+    icon: "/travelport.png",
+    company: "TRAVELPORT",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Wordpress Developer",
+    desc: "Developed dynamic and responsive WordPress websites part-time. Build engaging Wordpress websites.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp2.svg",
+    company: "PEERCONCEPT",
+    icon: "/peer.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Frontend Developer",
+    desc: "Developed and maintained a jobs platform, Overpass, specializing in remote work using React.js and SCSS. Jobs posting for clients, boosting user engagement. Optimized job search for contractors, increasing job matches.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
+    icon: "/overpass.png",
+    company: "OVERPASS",
   },
 ];
 

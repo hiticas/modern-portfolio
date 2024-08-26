@@ -2,7 +2,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaArrowTurnDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
@@ -31,12 +31,13 @@ const Hero = () => {
             words="Turning Ideas into Effortless User Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Mike, a Web Developer based in Romania.
+            Hi, I&apos;m Mike, a pasionat Web Developer, <br></br>happy to help
+            create amazing apps.
           </p>
           <a href="#about">
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
+              title="About Me"
+              icon={<FaArrowTurnDown />}
               position="right"
             />
           </a>
